@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    border: 1px;
+    background-color: $color-body;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.384);
+    font-family: $font-family;
+    color: rgb(0, 0, 0);
+  }

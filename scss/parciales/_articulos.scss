@@ -1,0 +1,59 @@
+
+  /* Articulos */
+  .articulos__main {
+    width: 95%;
+    background-color: $color-body;
+    margin-top: 15px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: auto ;
+    grid-template-columns: auto auto ;
+    grid-template-areas: "izquierda derecha"
+                         "centro centro";
+  }
+  .h2__titulo{
+    padding: 1rem;
+    color: black;
+  }
+  .caja__imagen__a {
+    grid-area: izquierda;
+    text-align: center;
+  }
+  
+  .caja__imagen__b {
+    grid-area: derecha;
+    text-align: center;
+  }
+  
+  .caja__imagen__c {
+    grid-area: centro;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .caja__imagen__c__parrafo {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin: 1rem;
+  }
+  
+  .imagen__b {
+    width: 480px;
+    height: 620px;
+  }
+  .parrafo__a{
+    padding: 1rem;
+    color: black;
+  }
+  .parrafo__b{
+   padding: 1rem;
+   color: black;
+  }
+  .parrafo__c{
+   padding: 1rem;
+   color: black;
+  }

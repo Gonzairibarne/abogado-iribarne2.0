@@ -1,0 +1,164 @@
+/* medias queries */
+  
+  
+  
+  @media screen and (  max-width: 1024px){
+    /* index */
+    
+  
+    /* header */
+    .header{
+      background-color:#57430246;
+      flex-direction: column;
+      
+    }
+  }
+  
+  
+  
+  @media screen and (max-width: 600px) {
+    /* index */
+    
+    .navbar{
+      display: block;
+      
+    }
+  
+    .div__h1{
+      display: none;
+    }
+    .nav{
+      display: none;
+      
+    }
+    .menu__hamburguesa{
+      display: grid;
+    
+    }
+  
+    .main__index{
+      grid-column:1 / span 3;
+    }
+    .main__data {
+    
+      grid-template-areas:
+         "img1 . ."
+         "img2 . .";
+    }
+    
+  
+    /* articulos */
+  
+    .articulos__main{
+      grid-column:1 / span 3;
+    }
+    .articulos__main {
+    display: grid;
+  
+  }
+  }
+  
+  @media screen and ( max-width: 768px){
+    .main__imagen1 img{
+      width: 300px;
+      height: auto;
+      margin: auto auto;
+  
+    }
+    .main__imagen2 img{
+      width: 300px;
+      height: auto;
+      margin: auto auto;
+      
+    }
+    .articulos__main {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-areas: 
+      "caja1"
+      "caja2"
+      "caja3";
+    }
+       .caja__imagen__c{
+        grid-area: caja3;
+       width: 100%;
+      flex-direction: row;
+    }
+    .caja__imagen__a{
+      grid-area: caja1;
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-areas: 
+      "imagen texto"
+      "imagen texto";
+        }
+    .caja__imagen__b{
+      grid-area: caja2;
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-areas: 
+      "imagen texto"
+      "imagen texto";
+        }
+  
+  
+       
+    .imagen__a, .imagen__b, .imagen__c{
+      width: 300px;
+      height: auto;
+      grid-area: imagen;
+    }
+    .parrafo__a, .parrafo__b, .parrafo__c{
+      grid-area: texto;
+    }
+  }
+  
+  @media screen and ( max-width: 320px){
+    .main__imagen1 img{
+      width: 300px;
+      height: auto;
+      margin: auto auto;
+  
+    }
+    .main__imagen2 img{
+      width: 300px;
+      height: auto;
+      margin: auto auto;
+      
+    }
+    .articulos__main {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-areas: 
+      "caja1"
+      "caja2"
+      "caja3";
+    }
+    .caja__imagen__c{
+  grid-area: caja3;
+  width: 320px;
+  flex-direction: column;
+    }
+    .caja__imagen__a{
+      grid-area: caja1;
+      width: 320px;
+      flex-direction: column;
+      display: flex;
+        }
+    .caja__imagen__b{
+      grid-area: caja2;
+      width: 320px;
+      display: flex;
+      flex-direction: column;
+  
+  
+        }
+    .imagen__a, .imagen__b, .imagen__c{
+      width: 300px;
+      height: auto;
+    }
+  }
+  
+  

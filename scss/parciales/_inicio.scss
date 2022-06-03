@@ -1,0 +1,31 @@
+ /* inicio */
+ .main__data {
+    display: grid;
+    background-color: $color-body;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+       "img1 . ."
+       ". . img2";
+  }
+  
+  .main__imagen1 {
+    grid-area: img1;
+    padding: 1rem;
+  }
+  
+  .main__imagen2 {
+    grid-area: img2;
+    padding: 1rem;
+  }
+  
+  .main__parrafo1 {
+    padding: 1rem;
+    color: black;
+  }
+  
+  .main__parrafo2 {
+    padding: 1rem;
+    color: black  ;
+  }
+  

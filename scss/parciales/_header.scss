@@ -1,0 +1,84 @@
+/*-----HEADER-----*/
+header {
+    background-color: #6d4a1c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    &__div__logo {
+      width: 250px;
+      height: 200px;
+    }
+    
+    &__div__2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    &__nav__ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      /*gap: 16px;*/
+    }
+  }
+  
+  
+  
+  .div__h1 {
+    background-color: grey;
+  }
+  
+  .nav__ul__li {
+    padding: 4px;
+  }
+  
+  .nav__ul__li__a {
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: grey;
+  }
+  
+  
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main__1 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+  }
+  
+  .main__2 {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: $color-body;
+  }
+  
+  h1 {
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+  }
+  
+  .nav__ul {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background-color: $color-body;
+  }
+  
+  .div__img {
+    border-radius: 30px;
+  }
+  
